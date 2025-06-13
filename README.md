@@ -1,2 +1,3 @@
-# websiteForHOFT
-These are screenshots of the HOFT Institute student interview website.
+This website displays recorded question videos, then records interviewee input. The interviewee must input at least one name, their email, and which test they're taking before they start the test. Once the test has started, they need to give the website permission to use their mic and camera. The interviewee must record a video before moving on to the next question. If they attempt to close the page, they'll receive a default warning that varies depending on the browser.  The interviewee's responses are saved to the DigitalOcean server. Each time the interviewee starts recording an answer, a text file named Answer_questionNumber_time_testLevel.txt is also saved to the folder. There's no text inside of the text file: it's simply meant to record if/when a student begins recording an answer.  
+
+The website was created with JavaScript, HTML/CSS, and React. It also utilizes the following libraries: https://github.com/bvaughn/react-error-boundary https://github.com/bowser-js/bowser
